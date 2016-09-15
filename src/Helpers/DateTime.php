@@ -26,8 +26,8 @@ class DateTime
     /**
      * 格式化时间日期（时间戳参数）
      *
-     * @param  string  $format
      * @param  string  $date
+     * @param  string  $format
      * @return string
      */
     public static function date($date, $format = 'Y-m-d H:i:s')
@@ -37,8 +37,8 @@ class DateTime
     /**
      * 格式化时间日期(日期参数)
      *
-     * @param  string  $format
      * @param  string  $date
+     * @param  string  $format
      * @return string
      */
     public static function fdate($date, $format = 'Y-m-d H:i:s')
