@@ -50,7 +50,7 @@ class DateTime
      *
      * @return array
      */
-    public static function getYearsList()
+    public static function getYearList()
     {
         $years = [];
         $startYear = 1970;
