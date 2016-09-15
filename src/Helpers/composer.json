@@ -1,0 +1,26 @@
+{
+  "name": "reheat/helpers",
+  "description": "The Reheat Helpers package.",
+  "license": "MIT",
+  "homepage": "https://www.weixiaodeyu.com",
+  "authors": [
+    {
+      "name": "JMJones",
+      "email": "yang.jmj@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Helpers\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
