@@ -45,19 +45,4 @@ class DateTime
     {
         return date($format,strtotime($date));
     }
-    /**
-     * 获取一个年份数组（常用于下拉框选择年份）
-     *
-     * @return array
-     */
-    public static function getYearList()
-    {
-        $years = [];
-        $startYear = 1970;
-        $endYear = date('Y',time());
-        for($i = $startYear; $i <= $endYear; $i++){
-            $years[$i] = $i;
-        }
-        return $years;
-    }
 }
